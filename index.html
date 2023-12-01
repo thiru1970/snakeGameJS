@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Snake Game</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Snake Game</h2>
+    <div id="msg">Press Space to Pause or Continue</div>
+    <div id="container">
+        <canvas id="gameboard" width="500" height="500"></canvas>
+        <div id="score">Score: <span id="scoreVal">0</span></div>
+        <audio id="backgroundMusic" loop>
+            <source src="funny bg.mp3" type="audio/mp3">
+        </audio>
+        <audio id="eatSound">
+            <source src="snake eating.mp3" type="audio/mp3">
+        </audio>    
+    
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

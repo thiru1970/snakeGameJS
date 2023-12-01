@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px; /* Adjusted margin for smaller screens */
+    text-align: center;
+    color: black;
+    font-size: 2em; /* Adjusted font size for smaller screens */
+}
+
+#msg {
+    font-weight: bold;
+}
+
+#score {
+    font-size: 1.5em; /* Adjusted font size for smaller screens */
+    color: black;
+}
+
+#gameboard {
+    margin: 10px; /* Adjusted margin for smaller screens */
+    border: 2px solid; /* Adjusted border size for smaller screens */
+}
